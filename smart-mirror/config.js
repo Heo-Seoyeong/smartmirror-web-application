@@ -4,7 +4,7 @@ var config = {
     greeting : ["SmartMirror"], // An array of greetings to randomly choose from
     // forcast.io
     forcast : {
-        key : "......", // Your forcast.io api key
+        key : "db7c46407bd055f07a3f147c35cd04f0", // Your forcast.io api key
         units : "auto" // See forcast.io documentation if you are getting the wrong units
     },
     // Calendar (An array of iCals)
