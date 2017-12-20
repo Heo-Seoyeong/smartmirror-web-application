@@ -9,7 +9,7 @@ var config = {
     },
     // Calendar (An array of iCals)
     calendar: {
-      icals : ["....."],
+      icals : ["https://calendar.google.com/calendar/ical/v4488nub77ethjpv1lnjjmsbcc%40group.calendar.google.com/public/basic.ics"],
       maxResults: 9, // Number of calender events to display (Defaults is 9)
       maxDays: 365 // Number of days to display (Default is one year)
     },
