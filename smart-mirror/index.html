@@ -172,52 +172,58 @@
 	              <span>{{hourlyForcast.summary}}</span>
 	              <span>{{weeklyForcast.summary}}</span> -->
 					</div>
-					<div class="weather-week" ng-repeat="forcast in weeklyForcast.data"
+					<!-- <div class="weather-week" ng-repeat="forcast in weeklyForcast.data"
 						ng-if="$index > 0">
-
-						<div class="weather-week">
-							<div class="weather-week-day">
-								<span class="day light-grey">Mon</span> 
-								<span class="icon-small dimmed wi wi-day-sunny:before"></span>
-								<span class="tempreture tempreture-min">-1.0&deg;</span>
-								<span class="tempreture tempreture-max">3.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Tue</span> 
-								<span><img class="icon-small" src="image/sun.png"/></span>
-								<span class="tempreture tempreture-min">-1.0&deg;</span>
-								<span class="tempreture tempreture-max">3.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Wed</span> 
-								<span><img class="icon-small" src="image/sun.png"/></span>
-								<span class="tempreture tempreture-min">-1.0&deg;</span>
-								<span class="tempreture tempreture-max">3.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Thu</span> 
-								<span><img class="icon-small" src="image/sun.png"/></span>
-								<span class="tempreture tempreture-min">-2.0&deg;</span>
-								<span class="tempreture tempreture-max">7.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Fri</span> 
-								<span><img class="icon-small" src="image/lcloud.png"/></span>
-								<span class="tempreture tempreture-min">0.0&deg;</span>
-								<span class="tempreture tempreture-max">10.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Sat</span> 
-								<span><img class="icon-small" src="image/rain.png"/></span>
-								<span class="tempreture tempreture-min">1.0&deg;</span>
-								<span class="tempreture tempreture-max">10.0&deg;</span>
-							</div>
-							<div class="weather-week-day">
-								<span class="day light-grey">Sun</span> 
-								<span><img class="icon-small" src="image/scloud.png"/></span>
-								<span class="tempreture tempreture-min">1.0&deg;</span>
-								<span class="tempreture tempreture-max">7.0&deg;</span>
-							</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">{{forcast.day}}</span> <span
+								class="icon-small dimmed wi {{forcast.wi}}"></span> <span
+								class="tempreture tempreture-min">{{forcast.temperatureMin}}&deg;</span>
+							<span class="tempreture tempreture-max">{{forcast.temperatureMax}}&deg;</span>
+						</div> 
+					</div> -->
+					<div class="weather-week">
+						<div class="weather-week-day">
+							<span class="day light-grey">Mon</span> 
+							<span class="icon-small dimmed wi wi-day-sunny:before"></span>
+							<span><img class="icon-small" src="image/sun.png"/></span>
+							<span class="tempreture tempreture-min">-1.0&deg;</span>
+							<span class="tempreture tempreture-max">3.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Tue</span> 
+							<span><img class="icon-small" src="image/sun.png"/></span>
+							<span class="tempreture tempreture-min">-1.0&deg;</span>
+							<span class="tempreture tempreture-max">3.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Wed</span> 
+							<span><img class="icon-small" src="image/sun.png"/></span>
+							<span class="tempreture tempreture-min">-1.0&deg;</span>
+							<span class="tempreture tempreture-max">3.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Thu</span> 
+							<span><img class="icon-small" src="image/sun.png"/></span>
+							<span class="tempreture tempreture-min">-2.0&deg;</span>
+							<span class="tempreture tempreture-max">7.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Fri</span> 
+							<span><img class="icon-small" src="image/lcloud.png"/></span>
+							<span class="tempreture tempreture-min">0.0&deg;</span>
+							<span class="tempreture tempreture-max">10.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Sat</span> 
+							<span><img class="icon-small" src="image/rain.png"/></span>
+							<span class="tempreture tempreture-min">1.0&deg;</span>
+							<span class="tempreture tempreture-max">10.0&deg;</span>
+						</div>
+						<div class="weather-week-day">
+							<span class="day light-grey">Sun</span> 
+							<span><img class="icon-small" src="image/scloud.png"/></span>
+							<span class="tempreture tempreture-min">1.0&deg;</span>
+							<span class="tempreture tempreture-max">7.0&deg;</span>
 						</div>
 					</div>
 				</div>
