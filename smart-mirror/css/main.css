@@ -256,7 +256,7 @@ ul.calendar {
 .weather-week .day {
     display: inline-block;
     margin-right: 10px;
-    width: 55px;
+    width: 50px;
 
     /* add 3/28 Mon. */
     color: white;
