@@ -1,6 +1,6 @@
 (function(angular) {
     'use strict';
 
-    angular.module('SmartMirror', ['ngAnimate']);
+    angular.module('TestSmartMirror', ['ngAnimate']);
 
 }(window.angular));
