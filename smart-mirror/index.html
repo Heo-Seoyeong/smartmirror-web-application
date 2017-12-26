@@ -164,7 +164,7 @@
 					</div>
 					<span><img style="width:40px" src="image/sun.png"/>&nbsp;&nbsp;&nbsp;
 					</span> 
-					<span class="tempreture">4.0&deg;&nbsp;&nbsp;&nbsp;</span>
+					<span class="tempreture">4.0&deg;&nbsp;&nbsp;</span>
 				</div>
 				<div class="weather-week-descriptor fade" ng-show="focus == 'default'">
 					<div class="weather-week-descriptor">
@@ -172,13 +172,12 @@
 	              <span>{{hourlyForcast.summary}}</span>
 	              <span>{{weeklyForcast.summary}}</span> -->
 					</div>
-					<div class="weather-week" ng-repeat="forcast in weeklyForcast.data"
-						ng-if="$index > 0">
-						<div class="weather-week-day">
-							<span class="day light-grey">{{forcast.day}}</span> <span
-								class="icon-small dimmed wi {{forcast.wi}}"></span> <span
-								class="tempreture tempreture-min">{{forcast.temperatureMin}}&deg;</span>
-							<span class="tempreture tempreture-max">{{forcast.temperatureMax}}&deg;</span>
+					<div>
+						<div>
+							<span>수</span> 
+							<span><img style="width:40px" src="image/sun.png"/></span>
+							<span>-1.0&deg;</span>
+							<span>3.0&deg;</span>
 						</div>
 					</div>
 				</div>
