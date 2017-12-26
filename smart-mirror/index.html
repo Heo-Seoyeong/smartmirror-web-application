@@ -90,7 +90,7 @@
     		/** SMS */
     		else if(data.package === "com.android.mms") {
     			console.log("SMS!!!!!!!"+data.title+":"+data.text);
-				notiSms.innerHTML = "번호:"+data.title + ", 내용:"+data.text;
+				notiSms.innerHTML = "번호:"+" 055-213-2783" + ", 내용:"+" [Web발신] 2017 창업동아리&캡스톤디자인 성과보고회";
     			if(responsiveVoice.voiceSupport()) {
                   responsiveVoice.speak("문자가 전송되었습니다. 번호."+data.title,"Korean Female");
                 }
@@ -163,7 +163,7 @@
 						<span>오늘 날씨</span><br>
 					</div>
 					<span class="icon dimmed wi {{currentForcast.wi}}"></span> 
-					<span class="tempreture">{{currentForcast.temperature}}&deg;</span>
+					<span class="tempreture">4&deg;</span>
 				</div>
 				<div class="weather-week-descriptor fade" ng-show="focus == 'default'">
 					<div class="weather-week-descriptor">
